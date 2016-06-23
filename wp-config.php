@@ -22,19 +22,11 @@
 /** The name of the database for WordPress */
 if($_SERVER['SERVER_NAME'] == 'mignix.dev' || $_SERVER['SERVER_NAME'] == "localhost"){
     define('DB_NAME', 'forum');
-
-    /** MySQL database username */
     define('DB_USER', 'root');
-
-    /** MySQL database password */
     define('DB_PASSWORD', 'toor');
 } else if($_SERVER['SERVER_NAME'] == 'ui.mk' || $_SERVER['SERVER_NAME'] == 'www.ui.mk') {
     define('DB_NAME', 'ui5');
-
-    /** MySQL database username */
     define('DB_USER', 'ui');
-
-    /** MySQL database password */
     define('DB_PASSWORD', 'ui.mk');
 }
 
